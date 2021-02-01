@@ -1,4 +1,4 @@
-## Effective Risk Mitigation Strategies for the Occurence of Combustion Instability using Machine Learning
+## Effective Risk Mitigation Strategies Using Machine Learning
 
 <p align="center">
   <img src="./Images/Highlight.PNG" width=500 />
@@ -61,3 +61,5 @@ As a result, at each optimization iteration, the computational cost of the invol
 **1. Presentation**: the slides presented in [ASME Turbo Expo 2019](https://event.asme.org/Turbo-Expo-2019) conference.
 
 **2. MatlabScripts**: MATLAB source code and data to reproduce the results. The code and data are organized in individual folders corresponding to different sections in the paper. 
+
+Pre-install UQLab (www.uqlab.com) is necessary to run the code
