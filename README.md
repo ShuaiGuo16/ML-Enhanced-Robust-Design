@@ -45,7 +45,7 @@ As a result, at each optimization iteration, the computational cost of the invol
 - We systematically explored 4 different scenarios where risk mitigation is important. We  provided mathematical formulation and proposed efficient solution strategy for each of these problems. 
 
 <p align="center">
-  <img src="./Images/Mitigation.PNG" width=300 />
+  <img src="./Images/Mitigation.PNG" width=500 />
 </p>
 
 
