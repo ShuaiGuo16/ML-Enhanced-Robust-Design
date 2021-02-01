@@ -1,7 +1,7 @@
 ## Effective Risk Mitigation Strategies for the Occurance of Combustion Instability using Machine Learning
 
 <p align="center">
-  <img src="./Images/Highlight.PNG" width=400 />
+  <img src="./Images/Highlight.PNG" width=500 />
 </p>
 
 
@@ -29,7 +29,7 @@ To address the above-mentioned "optimization under uncertainty" problem, we firs
 As a result, at each optimization iteration, the computational cost of the involved risk analysis can be significantly reduced, thus yielding an overall efficient combustor robust design.
 
 <p align="center">
-  <img src="./Images/Robust.PNG" width=400 />
+  <img src="./Images/Robust.PNG" width=300 />
 </p>
 
 
@@ -39,7 +39,7 @@ As a result, at each optimization iteration, the computational cost of the invol
 - Our trained GP models are sufficiently accurate to approximate the outputs of the expensive physical solver. 
 
 <p align="center">
-  <img src="./Images/GP_Prediction.PNG" width=400 />
+  <img src="./Images/GP_Prediction.PNG" width=500 />
 </p>
 
 - We systematically explored 4 different scenarios where risk mitigation is important. We  provided mathematical formulation and proposed efficient solution strategy for each of these problems. 
