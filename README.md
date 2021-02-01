@@ -1,4 +1,4 @@
-## Effective Risk Mitigation Strategies for the Occurance of Combustion Instability using Machine Learning
+## Effective Risk Mitigation Strategies for the Occurence of Combustion Instability using Machine Learning
 
 <p align="center">
   <img src="./Images/Highlight.PNG" width=500 />
