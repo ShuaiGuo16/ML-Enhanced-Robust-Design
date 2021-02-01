@@ -1,0 +1,69 @@
+% math.tex
+% W. Polifke May '06
+%
+% various definitions that often come handy for thermo-fluiddynamicists
+%
+%
+% math symbols - valid in math mode
+ 
+\def\To{ \; \Rightarrow \; }
+\def\to{ \; \rightarrow \; }
+\def\D{ \displaystyle }
+
+\def\av#1{\langle #1\rangle}                    %average
+\def\anv#1#2{\langle #1^{#2}\rangle}      %nth moment
+\def\inv#1{\frac{1}{#1}}	                         % inverses
+
+% approximately  greater / less than
+\newcommand{\gx}{\parbox{1em}{ \centering  $\stackrel{>}{\scriptstyle \sim }$ } } % apprx grtr
+\newcommand{\lx}{\parbox{1em}{\centering $\stackrel{<}{\scriptstyle\sim }$}} % apprx less
+
+%  total derivatives:
+\def\td#1#2{{d #1\over d #2}}                          % total derivative
+\def\t2d#1#2{{d^2 #1\over d #2^2}}                % second total derivative
+\def\tnd#1#2#3{{d^{#3} #1\over d #2^{#3}}}    % nth total derivative
+
+% partial derivatives:
+\def\pd#1#2{{\partial #1\over\partial #2}}
+\def\p2d#1#2{{\partial^2 #1\over\partial #2^2}} 
+\def\pnd#1#2#3{{\partial^{#3} #1\over\partial #2^{#3}}} 
+
+% vectors and matrices
+\newenvironment{matrix1}{ \left( \begin{array}{c} } { \end{array} \right) }
+\newenvironment{matrix2}{ \left( \begin{array}{cc} } { \end{array} \right) }
+\newenvironment{matrix3}{ \left( \begin{array}{ccc} } { \end{array} \right) }
+% begin / end vector:
+\providecommand{\bv}{\begin{matrix1}}
+\providecommand{\ev}{\end{matrix1}}
+% begin / end 2x2 matrix:
+\providecommand{\bmm}{\begin{matrix2}}
+\providecommand{\emm}{\end{matrix2}}
+% begin / end 3x3 matrix:
+\providecommand{\bmmm}{\begin{matrix3}}
+\providecommand{\emmm}{\end{matrix3}}
+
+% special functions
+\providecommand{\erf}{\, \mbox{erf}}
+\providecommand{\ctg}{\, \mbox{ctg}}
+
+% Kennzahlen:
+\providecommand{\Bi}{\, \mbox{Bi}}
+\providecommand{\Bo}{\, \mbox{Bo}}
+\providecommand{\Eo}{\mbox{Eo}}
+\providecommand{\Fo}{\mbox{Fo}}
+\providecommand{\Fr}{\mbox{Fr}}
+\providecommand{\Gr}{\mbox{Gr}}
+\providecommand{\Ja}{\, \mbox{Ja}}
+\providecommand{\Le}{\mbox{Le}}
+\providecommand{\Mo}{\mbox{Mo}}
+\providecommand{\Nu}{\, \mbox{Nu}}
+%\providecommand{\Pc}{\, \mbox{Pc}}
+\providecommand{\Pe}{\, \mbox{Pe}}
+\providecommand{\Pr}{\, {\mbox{Pr}\,}}
+\providecommand{\Ra}{\mbox{Ra}}
+%\providecommand{\Re}{\, \mbox{Re}}
+\renewcommand{\Re}{\, \mbox{Re}} % otherwise problems with \Re - real part
+\providecommand{\Sc}{\mbox{Sc}}
+\providecommand{\Sh}{\mbox{Sh}}
+\providecommand{\St}{\, \mbox{St}}
+
