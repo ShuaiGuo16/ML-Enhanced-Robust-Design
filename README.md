@@ -11,7 +11,7 @@
 - We trained Gaussian Process models to approximate the expensive physical simulations, thus achieving instant risk calculation.
 - We integrate the trained machine learning models into global optimization routines, which allows us to efficiently identify the best design parameters that are robust against uncertain operating conditions.
 
-This work was firstly presented in [ASME Turbo Expo 2019](https://event.asme.org/Turbo-Expo-2019), and was later published in the journal:
+This work was initially presented in [ASME Turbo Expo 2019](https://event.asme.org/Turbo-Expo-2019), and was later published in the journal:
 
 Guo S., Silva C. F., Polifke W., [Efficient Robust Design for Thermoacoustic Instability Analysis: A Gaussian Process Approach](https://asmedigitalcollection.asme.org/gasturbinespower/article-abstract/142/3/031026/955389/Efficient-Robust-Design-for-Thermoacoustic?redirectedFrom=fulltext). *Journal of Engineering for Gas Turbines and Power*, 2020, 142(3), pp. 031026.
 
